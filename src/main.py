@@ -20,7 +20,7 @@ def get_integer_input(prompt):
 def check_game_end(current_value, reduction_number, player_who_just_played):
     """
     Checks if the game should end based on the current number of stones.
-    Returns True if game ends, False otherwise.
+    Returns True if the game ends, False otherwise.
     """
     if current_value <= 0:
         print(f"\n--- Game Over ---")
@@ -34,7 +34,7 @@ def check_game_end(current_value, reduction_number, player_who_just_played):
         return True
     return False
 
-def run_reduction_game():
+def run_game_of_nim():
     """
     Runs the turn-based iterative reduction game.
     """
@@ -83,7 +83,7 @@ def run_reduction_game():
         print(f"\nUser's Turn:")
         print(f"The current number of stones is {current_value}\nThe maximum stones removable at a go is {reduction_number}")
 
-        # For this turn-based game, the user removes any amount of stones they deem fit
+        # For this turn-based game, the user removes any number of stones they deem fit
         # in order to NOT end up with the last stone
 
         while True:
@@ -107,4 +107,4 @@ def run_reduction_game():
         print("-" * 50) # Separator for turns
 
 if __name__ == "__main__":
-    run_reduction_game()
+    run_game_of_nim()
