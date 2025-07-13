@@ -103,8 +103,8 @@ def run_game_of_nim():
             break
 
         turn_counter += 1
-        print("-" * 50) # Separator for turns
-        print("-" * 50) # Separator for turns
+        print("-" * 50) # distinguish different turns
+        print("-" * 50) # distinguish different turns
 
 if __name__ == "__main__":
     run_game_of_nim()
