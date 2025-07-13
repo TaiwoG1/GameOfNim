@@ -14,6 +14,13 @@ This project involves the development of a turn-based interactive game in Python
 <br />
 
 
+<h2>How To Play: (Game is better visualized with stones)</h2>
+
+- <b2> User player will be prompted to enter a Total Number; the starting value (total number of stones in the basket), and a reduction number. </b2>
+- <b2> Players must remove a minimum of 1 and can remove up to n stones, where n is the reduction number. </b2>
+- <b2> Turns alternate between the user player and the computer. </b2>
+- <b2>The player left to take the last number (last stone) loses. The goal is to avoid the last stone. </b2>
+<br />
 
 <b>Derivation, Pattern Recognition, and Analysis (The "Impossible Level"):</b> <br/>
 The "Impossible Level" mode is the cornerstone of this project, demonstrating advanced problem-solving and algorithmic design. Its derivation involved: <br/>
